@@ -18,21 +18,41 @@ export const name = 'Mahesh';
 
 export const experiences = [
     {
-        'company': 'vincense',
-        'role': 'Product Developer',
-        'duration': 'march 2023 - may 2023',
-        'logo': 'https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/e5gz1yggdy8sc1umna3e',
-        'points': [
-            'Involved in dynamic contributions to web and mobile📱 development projects, actively influencing and improving project outcomes.',
-            'Developed multiple shared components to simplify tasks for fellow developers, boosting efficiency and teamwork.',
-            'Enhanced product performance through significant contributions to backend development, optimizing essential components for improved efficiency 📈.',
-            'Implemented data security for the company’s product to provide role-based access control ⚙️.'
+        company: 'Zidio Development',
+        role: 'Data Science and Analytics Intern',
+        duration: 'May 2025 - September 2025',
+        location: 'Bengaluru, India',
+        points: [
+            'Performed EDA on 10,000+ customer records, improving targeting accuracy by 22%.',
+            'Standardized ETL and reporting workflows, improving data consistency by 20%.',
+            'Created Power BI dashboards increasing stakeholder reporting efficiency by 30%.',
+            'Implemented SQL-based data validations, reducing data quality issues by 18%.'
         ],
-        'url': 'https://vincensesoftwaresolutions.com/',
     },
-    
-]
-
+    {
+        company: 'Cothon Solutions',
+        role: 'AIML Intern',
+        duration: 'March 2025 - May 2025',
+        location: 'Hyderabad, India',
+        points: [
+            'Modeled customer behavior using 15,000+ data entries, improving accuracy by 14%.',
+            'Designed Python dashboards using Matplotlib and Seaborn, enhancing insight delivery by 25%.',
+            'Built and evaluated ML models using Scikit-Learn with feature selection techniques.'
+        ],
+    },
+    {
+        company: 'Certifications',
+        role: 'Professional Certifications',
+        duration: '',
+        points: [
+            'Google Analytics – Google',
+            'Data Analysis using Python – IBM',
+            'Machine Learning with Python – IBM',
+            'Probability for Computer Science – NPTEL',
+            'Data Analytics and Visualization Job Simulation – Accenture'
+        ],
+    }
+];
 
 
 export const EMAIL_JS_SERVICE_ID = 'service_90wb9t5';
