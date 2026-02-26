@@ -66,35 +66,36 @@ const Projects = () => {
 }
 
 
-export const project = [
+
+{export const project = [
+    {
+        title:'Airfare Prediction Model',
+        description:'This project focuses on predicting flight ticket prices using machine learning algorithms. It involves data preprocessing, feature engineering, exploratory data analysis, and regression modeling to accurately forecast airfare prices based on factors such as airline, source, destination, duration, stops, and travel date.',
+        image: airfare,
+        git:"https://github.com/Karnemahesh/Airfare-prediction-model",
+        technologies:['jupyter', 'scikit-learn', 'pandas', 'numpy', 'matplotlib', 'python']
+    },
+    {
+        title:'Time Series Analysis & Forecasting',
+        description:'This project implements time series forecasting techniques to analyze and predict future trends from historical data. It includes data cleaning, seasonality detection, ARIMA modeling, Exponential Smoothing, and performance evaluation using RMSE, MAE, and MAPE metrics.',
+        image: timeseries,
+        git:"https://github.com/Karnemahesh/Time-Series-Analysis",
+        technologies:['streamlit', 'pmdarima', 'statsmodels', 'pandas', 'numpy', 'matplotlib', 'python']
+    },
     {
         title:'Agro Buddy',
-        description:'This research project aims to develop a machine learning and deep learning model for crop recommendation, disease prediction using plant leaf images, and fertilizer recommendation. The proposed model leverages the power of image classification algorithms and advanced neural networks to provide accurate predictions and recommendations for the agricultural domain.',
-        image: {vpn},
+        description:'This research project aims to develop a machine learning and deep learning model for crop recommendation, disease prediction using plant leaf images, and fertilizer recommendation.',
+        image: vpn,
         git:"https://github.com/Karnemahesh/Agro-buddy",
-        technologies:['jupyter' ,'sk learn' , 'html' ,'pandas' , 'numpy','python']
+        technologies:['jupyter','sk learn','html','pandas','numpy','python']
     },
     {
         title:'AI Doctor',
-        description:'The AI Doctor is a machine learning model designed to predict diseases based on symptoms, provide detailed descriptions about the diagnosed conditions, recommend suitable medications, suggest necessary precautions to be taken, advise on dietary modifications, and propose relevant workout routines.',
-        image: {copeople},
+        description:'The AI Doctor is a machine learning model designed to predict diseases based on symptoms and recommend medications, precautions, diet, and workouts.',
+        image: copeople,
         git:"https://github.com/Karnemahesh/AI-DOCTOR",
-        technologies:[ 'jupyter' ,'sk learn' , 'html' ,'pandas' , 'numpy','python']
-    },
-    {
-    title:'Airfare Prediction Model',
-    description:'This project focuses on predicting flight ticket prices using machine learning algorithms. It involves data preprocessing, feature engineering, exploratory data analysis, and regression modeling to accurately forecast airfare prices based on factors such as airline, source, destination, duration, stops, and travel date.',
-    image: {airfare},   
-    git:"https://github.com/Karnemahesh/Airfare-prediction-model",
-    technologies:['jupyter', 'scikit-learn', 'pandas', 'numpy', 'matplotlib', 'python']
-},
-{
-    title:'Time Series Analysis & Forecasting',
-    description:'This project implements time series forecasting techniques to analyze and predict future trends from historical data. It includes data cleaning, seasonality detection, ARIMA modeling, Exponential Smoothing, and performance evaluation using RMSE, MAE, and MAPE metrics. The system is designed for smart forecasting with automated model selection.',
-    image: {timeseries},  
-    git:"https://github.com/Karnemahesh/Time-Series-Analysis",
-    technologies:['streamlit', 'pmdarima', 'statsmodels', 'pandas', 'numpy', 'matplotlib', 'python']
-}
+        technologies:['jupyter','sk learn','html','pandas','numpy','python']
+    }
 ]
 
 export default Projects
