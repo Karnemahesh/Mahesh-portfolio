@@ -73,6 +73,20 @@ export const project = [
         git:"https://github.com/Karnemahesh/AI-DOCTOR",
         technologies:[ 'jupyter' ,'sk learn' , 'html' ,'pandas' , 'numpy','python']
     }
+    {
+    title:'Airfare Prediction Model',
+    description:'This project focuses on predicting flight ticket prices using machine learning algorithms. It involves data preprocessing, feature engineering, exploratory data analysis, and regression modeling to accurately forecast airfare prices based on factors such as airline, source, destination, duration, stops, and travel date.',
+    image: {airfare},   // replace with your actual image variable
+    git:"https://github.com/Karnemahesh/Airfare-prediction-model",
+    technologies:['jupyter', 'scikit-learn', 'pandas', 'numpy', 'matplotlib', 'python']
+},
+{
+    title:'Time Series Analysis & Forecasting',
+    description:'This project implements time series forecasting techniques to analyze and predict future trends from historical data. It includes data cleaning, seasonality detection, ARIMA modeling, Exponential Smoothing, and performance evaluation using RMSE, MAE, and MAPE metrics. The system is designed for smart forecasting with automated model selection.',
+    image: {timeseries},  // replace with your actual image variable
+    git:"https://github.com/Karnemahesh/Time-Series-Analysis",
+    technologies:['streamlit', 'pmdarima', 'statsmodels', 'pandas', 'numpy', 'matplotlib', 'python']
+}
 ]
 
 export default Projects
