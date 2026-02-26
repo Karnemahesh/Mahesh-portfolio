@@ -1,25 +1,26 @@
 
 import React from "react";
-import vpn from '../assets/vpn.png'
-import copeople from '../assets/copeople.png'
 import airfare from '../assets/airfare.png'
 import timeseries from '../assets/timeseries.png'
+import vpn from '../assets/vpn.png'
+import copeople from '../assets/copeople.png'
 import Footer from './Footer'
 
 const ProjectCard = ({ image, title, description, git, technologies }) => {
     return (
         <div className="max-w-sm sm:max-w-sm md:max-w-sm bg-gray-900 border border-neutral-100 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            {title=='airfare' && <a href="#">
+             {title=='airfare' && <a href="#">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={airfare} alt="" />
             </a>}
             {title=='timeseries' && <a href="#">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={timeseries} alt="" />
             </a>}
+
             {title=='Snap Shot' && <a href="#">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={vpn} alt="" />
             </a>}
-            {title=='Copeople' && <a href="#">
-                <img className="w-full rounded-t-lg h-auto object-cover " src={Copeople} alt="" />
+            {title=='Co People' && <a href="#">
+                <img className="w-full rounded-t-lg h-auto object-cover " src={copeople} alt="" />
             </a>}
             <div className="p-4 sm:p-6">
                 <a href="#">
@@ -66,8 +67,7 @@ const Projects = () => {
 }
 
 
-
- export const project = [
+export const project = [
     {
         title:'Airfare Prediction Model',
         description:'This project focuses on predicting flight ticket prices using machine learning algorithms. It involves data preprocessing, feature engineering, exploratory data analysis, and regression modeling to accurately forecast airfare prices based on factors such as airline, source, destination, duration, stops, and travel date.',
@@ -82,20 +82,21 @@ const Projects = () => {
         git:"https://github.com/Karnemahesh/Time-Series-Analysis",
         technologies:['streamlit', 'pmdarima', 'statsmodels', 'pandas', 'numpy', 'matplotlib', 'python']
     },
+
     {
         title:'Agro Buddy',
-        description:'This research project aims to develop a machine learning and deep learning model for crop recommendation, disease prediction using plant leaf images, and fertilizer recommendation.',
-        image: vpn,
+        description:'This research project aims to develop a machine learning and deep learning model for crop recommendation, disease prediction using plant leaf images, and fertilizer recommendation. The proposed model leverages the power of image classification algorithms and advanced neural networks to provide accurate predictions and recommendations for the agricultural domain.',
+        image: {vpn},
         git:"https://github.com/Karnemahesh/Agro-buddy",
-        technologies:['jupyter','sk learn','html','pandas','numpy','python']
+        technologies:['jupyter' ,'sk learn' , 'html' ,'pandas' , 'numpy','python']
     },
     {
-        title:'AI Doctor',
-        description:'The AI Doctor is a machine learning model designed to predict diseases based on symptoms and recommend medications, precautions, diet, and workouts.',
-        image: copeople,
+        title:'AI DOCTOR',
+        description:'The AI Doctor is a machine learning model designed to predict diseases based on symptoms, provide detailed descriptions about the diagnosed conditions, recommend suitable medications, suggest necessary precautions to be taken, advise on dietary modifications, and propose relevant workout routines.',
+        image: {copeople},
         git:"https://github.com/Karnemahesh/AI-DOCTOR",
-        technologies:['jupyter','sk learn','html','pandas','numpy','python']
+        technologies:[ 'jupyter' ,'sk learn' , 'html' ,'pandas' , 'numpy','python']
     }
-];
+]
 
 export default Projects
