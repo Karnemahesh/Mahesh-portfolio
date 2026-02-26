@@ -18,7 +18,7 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
             {title=='Snap Shot' && <a href="#">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={vpn} alt="" />
             </a>}
-            {title=='Co people' && <a href="#">
+            {title=='Copeople' && <a href="#">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={Copeople} alt="" />
             </a>}
             <div className="p-4 sm:p-6">
