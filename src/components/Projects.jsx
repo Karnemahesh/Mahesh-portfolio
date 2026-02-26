@@ -19,7 +19,7 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
                 <img className="w-full rounded-t-lg h-auto object-cover " src={vpn} alt="" />
             </a>}
             {title=='Co People' && <a href="#">
-                <img className="w-full rounded-t-lg h-auto object-cover " src={Co People} alt="" />
+                <img className="w-full rounded-t-lg h-auto object-cover " src={CoPeople} alt="" />
             </a>}
             <div className="p-4 sm:p-6">
                 <a href="#">
