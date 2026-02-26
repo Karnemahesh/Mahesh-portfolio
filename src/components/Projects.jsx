@@ -96,6 +96,6 @@ const Projects = () => {
         git:"https://github.com/Karnemahesh/AI-DOCTOR",
         technologies:['jupyter','sk learn','html','pandas','numpy','python']
     }
-]
+];
 
 export default Projects
