@@ -67,7 +67,7 @@ const Projects = () => {
 
 
 
-{export const project = [
+ export const project = [
     {
         title:'Airfare Prediction Model',
         description:'This project focuses on predicting flight ticket prices using machine learning algorithms. It involves data preprocessing, feature engineering, exploratory data analysis, and regression modeling to accurately forecast airfare prices based on factors such as airline, source, destination, duration, stops, and travel date.',
