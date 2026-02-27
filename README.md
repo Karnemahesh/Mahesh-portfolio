@@ -1,4 +1,4 @@
-# 🚀 Mahesh Portfolio
+#  Mahesh Portfolio
 
 A modern and responsive personal portfolio website built using React.  
 This project showcases my skills, projects, and contact details in a clean and professional layout.
@@ -8,7 +8,7 @@ https://maheshportfolio19.netlify.app/
 
 ---
 
-## ✨ Features
+##  Features
 
 - Fully responsive design  
 - Smooth user experience  
@@ -18,7 +18,7 @@ https://maheshportfolio19.netlify.app/
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - React
 - JavaScript
@@ -27,7 +27,7 @@ https://maheshportfolio19.netlify.app/
 
 ---
 
-## 📂 Getting Started (Run Locally)
+##  Getting Started (Run Locally)
 
 Follow the steps below to set up the project on your local machine.
 
@@ -73,7 +73,7 @@ Your application should be running locally.
 
 ---
 
-## 🧪 Available Scripts
+##  Available Scripts
 
 ### `npm start`
 Runs the app in development mode.
@@ -91,7 +91,7 @@ It exposes all configuration files (Webpack, Babel, ESLint, etc.) for full contr
 
 ---
 
-## 🚀 Production Build
+##  Production Build
 
 To generate an optimized production build:
 
@@ -103,7 +103,7 @@ Your app will be ready for deployment.
 
 ---
 
-## 📌 Deployment
+##  Deployment
 
 This project is deployed on Netlify.
 
@@ -112,7 +112,7 @@ https://maheshportfolio19.netlify.app/
 
 ---
 
-## 📬 Connect
+##  Connect
 
 If you like this project, feel free to star ⭐ the repository.
 
