@@ -38,7 +38,7 @@ const About = () => {
               On a different note, I'm also into music listener🎶.</p>
 
             <ButtonLink
-              url='https://drive.google.com/file/d/1eftPJ_aeRy6CDAeJpxZ0Zj_eR9HwhBF0/view?usp=sharing'
+              url='https://drive.google.com/file/d/1d3mB-dibxQtKSxLXsAoKc9lfRMxlX-UH/view?usp=sharing'
               text='View Resume →'
               padding={`p-3`}
             />
